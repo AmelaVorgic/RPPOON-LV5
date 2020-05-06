@@ -24,9 +24,9 @@ namespace LV5RPPOON
             Console.WriteLine("Product description:"+ChosenItems.Description());
 
             ShippingService Delivery = new ShippingService(2.99);
-            Console.WriteLine("Shipping price for box:" + Delivery.GetPrice(ChosenItems));
-            Console.WriteLine("Shipping price for Shoes only:" + Delivery.GetPrice(Shoes));
-		    Console.WriteLine("Shipping price for Bottled Water only:" + Delivery.GetPrice(BottledWater));
+            Console.WriteLine("Shipping price for box:" + Delivery.CalculatePrice(ChosenItems));
+            Console.WriteLine("Shipping price for Shoes only:" + Delivery.CalculatePrice(Shoes));
+		    Console.WriteLine("Shipping price for Bottled Water only:" + Delivery.CalculatePrice(BottledWater));
 
             Console.ReadKey();
             */
