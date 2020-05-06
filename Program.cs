@@ -61,7 +61,7 @@ namespace LV5RPPOON
             Presidents.Show;
 
             Flathearthers.Remove("Edith");
-            Flathearthers.Remove("Donald");
+            Flathearthers.Remove("Trump");
             Flathearthers.Show();
 
             Presidents.Remove("Grabar Kitarovic");
