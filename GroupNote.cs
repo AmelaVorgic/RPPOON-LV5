@@ -9,6 +9,8 @@ namespace LV5RPPOON
     class GroupNote : Note
     {
         List<string> authors;
+        private string mainAuthor;
+        
         public GroupNote(string message, string mainAuthor, ITheme theme) : base(message, theme)
         {
             this.authors = new List<string>();
