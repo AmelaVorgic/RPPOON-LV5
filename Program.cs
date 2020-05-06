@@ -11,6 +11,27 @@ namespace LV5RPPOON
         static void Main(string[] args)
         {
             /*
+            //zadatak 1,2
+            Product Shoes = new Product("Balenciagas",1.4, 950);
+            Product BottledWater = new Product("Smartwater", 1.1, 1.99);
+
+            Box ChosenItems = new Box("Products");
+            ChosenItems.Add(Shoes);
+            ChosenItems.Add(BottledWater);
+
+            Console.WriteLine("Total product price:"+ChosenItems.Price);
+            Console.WriteLine("Total product weight:"+ChosenItems.Weight);
+            Console.WriteLine("Product description:"+ChosenItems.Description());
+
+            ShippingService Delivery = new ShippingService(2.99);
+            Console.WriteLine("Shipping price for box:" + Delivery.GetPrice(ChosenItems));
+            Console.WriteLine("Shipping price for Shoes only:" + Delivery.GetPrice(Shoes));
+		    Console.WriteLine("Shipping price for Bottled Water only:" + Delivery.GetPrice(BottledWater));
+
+            Console.ReadKey();
+            */
+            
+            /*
             //zadatak 5
             LightTheme lightTheme = new LightTheme();
             MyTheme yellowTheme = new MyTheme();
